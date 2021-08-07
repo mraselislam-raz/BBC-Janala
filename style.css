@@ -1,0 +1,232 @@
+/* global css */
+
+@import url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/lal-sabuj-normal/stylesheet.css');
+
+body{
+    font-family: 'LalSabujNormal';
+    
+}
+
+img,iframe{
+    max-width: 100%;
+}
+
+.button:hover{
+    background: transparent;
+    color: black;
+}
+.title-text{
+    font-size: 30px;
+    text-align: center;
+    margin: 40px 0;
+    color: #027887;
+    font-weight: bold;
+}
+
+
+
+/* ----------main css */
+
+.nav-item a{
+    font-size: 18px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.header-section{
+    background-image: url(./imgs/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.banner-text{
+    padding: 140px 10px;
+}
+
+.banner-text h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.banner-text h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.banner-text .btn{
+    padding: 10px 40px;
+    font-size: 18px;
+    margin: 2px;
+}
+
+.banner-text .btn:hover{
+    background: transparent;
+    color: #fff;
+}
+
+.course-text{
+    max-width: 50%;
+    margin:20px auto;
+}
+
+.course-text h2{
+    color: #027887;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.course-text h4{
+    font-size: 28px;
+    margin: 30px 0;
+}
+
+.course-text h3{
+    color: #027887;
+    font-size:40px;
+    
+}
+
+.course-info{
+    box-shadow: 5px 5px 5px rgba(1, 1, 1,.2);
+    cursor: pointer;
+    transition: .3s;
+    margin: 2px;
+}
+
+.course-info:hover{
+    background: rgb(233, 233, 233);
+}
+
+.course-info img{
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.course-info strong{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.all-course-secion{
+    background: #f8f8f8;
+}
+.all-course-secion .card{
+    cursor: pointer;
+    transition: .4s;
+}
+
+.all-course-secion .card:hover{
+    background: rgb(233, 233, 233);
+}
+
+.fee-card-row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.fee-card{
+    background: linear-gradient(to top,rgb(127, 238, 155), #bbb);
+    padding: 20px;
+    margin: 2px;
+    border-radius: 10px;
+    transition: .4s;
+    box-sizing: border-box;
+}
+
+.fee-card h5{
+    font-size: 16px;
+}
+
+
+.fee-card .btn{
+    padding:5px 30px;
+    margin-top: 30px;
+}
+
+
+.fee-card:hover{
+    transform: scale(1.02);
+}
+
+.last-fee-card{ background: linear-gradient(to top,rgb(224, 146, 57), rgb(96, 243, 91));
+}
+
+.footer-section{
+    background: #3d4775;
+    color: #fff;
+}
+.footer-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-info{
+    display: flex;
+    background: #222;
+    padding: 10px 20px;
+    border-radius: 8px;
+    align-items: center;
+    margin: 3px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.contact-info:hover{
+    background: #bbb;
+    color: #000;
+}
+
+.f-l-top span{
+    font-size: 20px;
+    padding: 0 10px;
+    border-right: 1px solid #fff;
+    cursor: pointer;
+}
+.f-l-top span:last-child{
+    border: none;
+}
+
+.f-l-bottom span{
+    padding: 0 10px;
+    border-right: 1px solid #fff;
+    cursor: pointer;
+}
+
+.f-l-bottom span:last-child{
+    border: none;
+}
+
+.footer-left span:hover{
+    color: yellow;
+}
+
+.footer-right p{
+    font-size: 15px;
+}
+
+.footer-right span{
+    font-size: 13px;
+}
+
+.my-rights p{
+    color: yellow;
+}
+
+
+.my-rights a{
+    text-decoration: none;
+    color: rgb(0, 253, 13);
+    transition: .2s;
+    font-weight: 600;
+}
+
+.my-rights a:hover{
+    color: #fff;
+}
